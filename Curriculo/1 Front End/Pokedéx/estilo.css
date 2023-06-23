@@ -1,0 +1,85 @@
+#painel {
+    margin-left: auto;
+    color: azure;
+    border: 40px solid black;
+    width: 300px;
+    height: 600px;
+    margin-right: auto;
+
+
+
+}
+
+body {
+    background-color: rgba(24, 24, 24, 0.815);
+
+
+}
+
+
+#buscar {
+    height: 35px;
+    background-color: aliceblue;
+    border: none;
+    border-style: outset;
+    margin-left: 30px;
+}
+
+.botao {
+    height: 27px;
+    width: 82px;
+    background-color: azure;
+    border: none;
+    margin-left: 40px;
+    border-style: outset;
+    margin-top: 20px;
+
+}
+
+#entrada {
+    border-radius: 80px;
+    height: 35px;
+    border-style: groove;
+    margin-left: 11px;
+}
+
+.pokemon {
+    margin-left: 5px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRlF7dkNG_BxrZTF1Qph2kENxyYPoXTKi07Q&usqp=CAU);
+    width: 210px;
+    height: 177px;
+    border-radius: 10px;
+    border: 1px solid aliceblue;
+
+}
+
+.pokemon5 {
+    background-color: rgba(5, 104, 91, 0.733);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.pokedex {
+    padding-left: 6px;
+    width: 120px;
+}
+
+#tela {
+    border: 6px solid black;
+    width: 220px;
+    height: 400px;
+    color: rgb(0, 0, 0);
+    background: azure;
+    border-radius: 10px;
+    margin: auto;
+    animation: carregar 3s alternate;
+    background-size: cover;
+}
+
+@keyframes carregar {
+    0% {
+        height: 0;
+    }
+
+    100% {}
+}

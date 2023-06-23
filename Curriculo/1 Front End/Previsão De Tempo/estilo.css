@@ -1,0 +1,43 @@
+.seila{
+    color:azure;
+   text-align:center;
+   border:2px solid black;
+   margin-left: auto;
+   margin-right: auto;
+   width: 400px;
+   height: 700px;
+   background-color: rgba(93, 124, 160, 0.363);
+}
+body{
+    background-image: url(https://th.bing.com/th/id/R.bdeff53fdf1eb831f2a0dfb260fcd5f7?rik=DnSZm0IUe%2benfw&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fLightning-Storm-Background-Download-Free.jpg&ehk=7sOwjqRDPZGJYqhfGl0TsoDtTzdErS564TI5JrGgDig%3d&risl=&pid=ImgRaw&r=0);
+}
+
+.botao{
+    border:none;
+    color: azure;
+    background-color: darkblue;
+    border-radius: 10px;
+}
+
+#cidade{
+    border-radius: 10px;
+    color:darkblue;
+}
+
+.botao:hover{
+    width: 65px;
+    height: 35px;
+    transition-duration:1s;
+}
+
+.tempo{
+    animation: voltar 4s infinite alternate;
+}
+@keyframes voltar {
+    0%{
+        transform:translateX(100px);
+    }
+    100%{
+        transform: translateX(-100px);
+    }
+}

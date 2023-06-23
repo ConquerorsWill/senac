@@ -1,0 +1,51 @@
+.foto {
+    border: 10px solid palevioletred;
+    border-radius: 10%;
+    width:300px
+}
+
+body{
+    background-color:gainsboro;
+    background-image: linear-gradient(azure, gainsboro);
+    text-align:center;
+}
+
+ul {
+    list-style: none
+}
+
+
+.menu {
+    background-color:cornsilk;
+    border-radius: 100px
+}
+
+.menu ul li {
+    display: inline
+}
+
+.menu ul li a {
+    color:chocolate;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    background-color:darkkhaki;
+    font-size: 22px;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+.tabela {
+    text-align: left;
+    background-color:azure;
+    color:darkturquoise;
+    font-family:inherit
+}
+
+.tabela tr td:hover{
+    font-size:20px;
+    background-color:black;
+    transition-duration:1s;
+}

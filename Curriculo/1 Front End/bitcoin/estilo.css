@@ -1,0 +1,46 @@
+#seila{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height:400px;
+    background-color: rgb(3, 28, 66);
+    border:2px solid rgb(128, 2, 2);
+    border-radius:20px;
+    color:gold;
+}
+
+body{
+    background-color: rgba(71, 3, 71, 0.856);
+}
+
+#botao{
+    border:3px solid rgb(128, 2, 2);
+    background-color: goldenrod;
+    border-radius:10px;
+    color:gold;
+}
+
+#moeda{
+    border:3px solid rgb(128, 2, 2);
+    background-color: gold;
+    border-radius:10px;
+    color:rgb(0, 141, 118);
+}
+
+#imagem{
+    border:2px solid rgb(128, 2, 2);
+    width:200px
+}
+
+img{
+    animation: rotacionar 5s infinite alternate;
+}
+@keyframes rotacionar {
+    0%{
+        transform:rotate3d(0,1,1, 0deg);
+    }
+    100%{
+        transform:rotate3d(0,1,1, 360deg);
+    }
+    
+}

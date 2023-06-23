@@ -1,0 +1,67 @@
+.container{
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border:2px solid black;
+    text-align: center;
+    display: flex;
+}
+
+
+
+.quadrado{
+    width:150px;
+    height:150px;
+    text-align: center;
+    font-size:150px;
+    border: solid;
+    border-radius: 5px;
+    font-family: fantasy;
+}
+
+.jogo{
+    background:slateblue;
+    border-radius:5px;
+    margin:15px auto;
+}
+
+body{
+    background-color: azure;
+}
+
+#Q1{
+    background: salmon;
+}
+#Q2{
+    background: chartreuse;
+}
+#Q3{
+    background: crimson;
+}
+#Q4{
+    background: darkkhaki;
+}
+#Q5{
+    background: darkmagenta;
+}
+#Q6{
+    background: blue;
+}
+#Q7{
+    background: whitesmoke;
+}
+#Q8{
+    background: orangered;
+}
+#Q9{
+    background: bisque;
+}
+.botao{
+    background-color: blueviolet;
+    border-radius: 9px;
+}
+.botao:hover{
+    background-color: aqua;
+    width:120px;
+    font-size:15px;
+}

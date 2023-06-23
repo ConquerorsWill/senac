@@ -1,0 +1,20 @@
+.painel{
+    border:2px solid black;
+    width:400px;
+    height:400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 20px;
+ 
+}
+input{
+    border-radius: 10px;
+    height: 30px;
+    text-align: center;
+}
+
+#resultado{
+    font-size:50px;
+    color:red;
+}

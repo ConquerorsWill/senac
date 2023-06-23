@@ -1,0 +1,46 @@
+
+
+body{
+  margin:200px;
+    background-image: linear-gradient(rgb(227, 253, 227), gainsboro,rgb(222, 250, 250));
+}
+
+.foto{
+    width:500px;
+    border: 5px solid gainsboro;
+    border-radius: 20px;
+
+
+}
+.foto:hover{
+    width:700px;
+    transition-duration: 1s;
+}
+.pagina{
+    color:red;
+    text-decoration: none;
+}
+.pagina:hover{
+    font-size:17px;
+    text-decoration: underline;
+}
+.negrito{
+    background-color: rgb(247, 217, 217);
+}
+
+.tabela{
+    width: 500px;
+    margin-top: 50px;
+    background-color: azure;
+    color:darkcyan;
+    font-size: 24px;
+}
+.tabela tr td:hover{
+    font-size: 29px;
+    transition-duration: 1s;
+    background-color: darkseagreen;
+}
+.titulo{
+    background-color: cornflowerblue;
+    color:indianred;
+}

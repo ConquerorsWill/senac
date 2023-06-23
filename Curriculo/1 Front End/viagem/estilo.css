@@ -1,0 +1,62 @@
+.fundo{
+    width:100%;
+    height: calc(600px - 6px);
+    border-bottom: 6px solid rgb(188, 255, 168);
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/18/Tr%C3%AAs_Morrinhos_-_Terra_Rica_-_PR.jpg);
+}
+
+.aviao{
+    width: 350px;
+    position: absolute;
+    right: -10px;
+    top: 100px;
+}
+
+
+.card{
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 20px black;
+    transition: 1s;
+    height: 500px;
+}
+.card:hover{
+    width: 20rem !important;
+    transition-duration: 1s;
+    height: 550px;
+}
+
+.carousel{
+    box-shadow:2px 2px 20px black;
+}
+
+.rodape{
+    color: white;
+    padding-top: 30px;
+    border-top: 5px solid orange;
+    padding-bottom: 30px;
+}
+
+a{
+    color: white !important;
+}
+
+.img-fluid{
+    box-shadow:2px 2px 20px black;
+    margin-top:20px;
+    margin-bottom:20px;
+    border-radius:30px;
+}
+
+.informacao{
+    margin-top: 30px;
+
+}
+
+.preco{
+    font-size: 20px !important;
+}

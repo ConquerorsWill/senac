@@ -1,0 +1,34 @@
+.item{
+    background-color:rgb(135, 161, 199);
+    text-align:center;
+    margin:5px;
+    font-size:20px;
+    font-style:italic;
+    border-radius:10px;
+    
+    
+}
+.coluna{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.linha{
+    grid-template-rows: 100px 300px 100px 300px;
+    border: 10px solid rgb(221, 253, 253);
+    border-radius:20px;
+    
+}
+
+.foto:hover{
+    width:350px;
+    transition-duration:1s;
+    
+}
+body{
+    background-color:rgb(136, 81, 81);
+}
+.foto{
+    margin-top: 20px;
+}

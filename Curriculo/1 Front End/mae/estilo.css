@@ -1,0 +1,31 @@
+body{
+    background-color: azure;
+    background-image: url(https://thumbs.gfycat.com/BackMistyHare-size_restricted.gif);
+    background-size: cover;
+    font-size:15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.painel{
+    width:500px;
+    height:500px;
+    background-color: rgba(231, 231, 231, 0.842);
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:10px;
+    padding-left:40px;
+
+}
+.botao{
+    background-color: azure;
+    color: black;
+    border:none;
+    height:40px;
+    width:60px;
+    border-radius: 10px;
+}
+
+.botao:hover{
+    background-color: red;
+    width:60px;
+}

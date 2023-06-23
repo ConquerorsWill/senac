@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="painel" data-tilt data-tilt-max="10" data-tilt-speed="3000" data-tilt-perspective="1000" data-tilt-glare data-tilt-max-glare="2">
+        <h1>Feliz Dia das Mães</h1>
+        <button class="botao" onclick="gerarFrase()">Gerar</button>
+        <button class="botao" onclick="lerFrase()">Falar</button>
+        <img width="300" src="https://clipground.com/images/dia-das-maes-png-19.png">
+
+        <p id="frase"></p>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+</body>
+</html>

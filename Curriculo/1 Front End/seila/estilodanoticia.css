@@ -1,0 +1,38 @@
+.foto {
+    border: 5px solid darkcyan;
+    border-radius:15%;
+}
+body {
+    text-align:center;
+    background-color:gainsboro;
+    background-image: linear-gradient(to left,azure,gainsboro)
+}
+
+.sla:hover {
+    font-size:20px;
+    transition-duration:1s;
+}
+
+.lista{
+    text-align: left;
+}
+.tabela{
+    color:darkturquoise;
+    background-color:azure
+}
+
+
+.tabela tr td:hover{
+    font-size:20px;
+    background-color:dimgray;
+}
+
+.texto {
+    font-size:30px;
+    color:cadetblue
+}
+.sla2{
+    text-align:left
+}
+
+
