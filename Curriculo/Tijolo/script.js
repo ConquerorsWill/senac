@@ -9,7 +9,7 @@ var velocidadeRaquete = 7;
 var bolaRadius = 10;
 var bolaX = canvas.width / 2;
 var bolaY = canvas.height - 30;
-var bolaDX = 2;
+var bolaDX = 4;
 var bolaDY = -2;
 
 var tijolosPorLinha = 3;
@@ -20,6 +20,9 @@ var tijoloEspacamento = 10;
 var espacamentoSuperiorQuadro = 30;
 var espacamentoEsquerdoQuadro = 30;
 var tijolos = [];
+
+var totalPontuacao = tijolosPorLinha * tijolosPorColuna * 10;
+var pontuacao = 0;
 
 for (var coluna = 0; coluna < tijolosPorColuna; coluna++) {
     tijolos[coluna] = []
@@ -106,17 +109,33 @@ function detectarColisao() {
 
             if (tijolo.ativo === 1) {
 
-                if (bolaX > tijolo.x
-                    && bolaX < tijolo.x + tijoloLargura
-                    && bolaY > tijolo.y
-                    && bolaY < tijolo.y + tijoloAltura) {
+                if (bolaX + bolaRadius > tijolo.x
+                    && bolaX - bolaRadius < tijolo.x + tijoloLargura
+                    && bolaY + bolaRadius > tijolo.y
+                    && bolaY - bolaRadius < tijolo.y + tijoloAltura) {
                         bolaDY = -bolaDY;
                         tijolo.ativo = 0;
+                        tela = document.getElementById("ponto");
+                        pontuacao = pontuacao +10;
+                        tela.innerHTML = "Score: "+ pontuacao;
+
+                        if(pontuacao === totalPontuacao){
+                            window.location.reload();
+                        }
 
                 }
             }
         }
     }
+}
+
+function gameover(){
+    var gameover = document.getElementById("gameover");
+    gameover.style.display = 'block';
+    
+}
+function reiniciar(){
+    document.location.reload();
 }
 
 
@@ -134,12 +153,12 @@ function desenhar() {
     if (bolaY + bolaDY < bolaRadius) {
         bolaDY = -bolaDY;
 
-    } else if (bolaY + bolaDY > canvas.height - bolaRadius) {
+    } else if (bolaY + bolaDY > canvas.height - bolaRadius - raqueteAltura) {
 
         if (bolaX > raqueteX && bolaX < raqueteX + raqueteLargura) {
             bolaDY = -bolaDY;
         } else {
-            document.location.reload();
+            gameover();
         }
 
     }

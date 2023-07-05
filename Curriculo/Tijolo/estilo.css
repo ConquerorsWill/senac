@@ -1,11 +1,52 @@
-#gameCanvas{
+#gameCanvas {
     border: 1px solid black;
     width: 800px;
     height: 600px;
 }
 
-.painel{
+.painel {
     width: 800px;
     height: 600px;
     margin: 40px auto;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#ponto{
+    color:gray;
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+.gameover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 9999;
+    display: none;
+
+}
+
+.mensagemGameover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+    animation: piscar 4s alternate infinite;
+}
+@keyframes piscar {
+    0%{color: white;}
+    100%{color: red;}
+}
+button{
+    background-color: green;
+    color:white;
+    border-radius:5px;
+    padding:5px;
 }
