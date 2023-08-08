@@ -11,6 +11,14 @@
     <div class="painel">
     <canvas id="gameCanvas" width="600px" height="400px "></canvas>
     <p id="ponto">Score:0</p>
+
+    <div class="botoes">
+        <button onclick="facil()">Fácil</button>
+        <button onclick="medio()">Médio</button>
+        <button onclick="dificil()">Dificil</button>
+        <button onclick="impossivel()">Lendario</button>
+    </div>
+
     <h1>Jogo Quebra Tijolos</h1>
     </div>
     <br><br>
@@ -23,6 +31,13 @@
 
         </div>
 
+    </div>
+    <div class="vitoria" id="vitoria">
+        <div class="mensagemVitoria">
+            Parabéns, você ganhou!
+            <br>
+            <button onclick="reiniciar()">Clique para Jogar Novamente</button>
+        </div>
     </div>
     
 
