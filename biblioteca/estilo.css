@@ -1,0 +1,25 @@
+.painel {
+    background-color: rgba(231, 191, 138, 0.534);
+    text-align:center;
+    margin: auto;
+    min-height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#titulo {
+    border: 3px solid navajowhite;
+    
+}
+#autor {
+    border: 3px solid navajowhite;
+    margin-top: 20px;
+}
+#botao {
+    border: 3px solid  cadetblue;
+    background-color: cadetblue;
+    margin-top: 10px;
+}
+body{
+    background-image: url(https://www.estadao.com.br/resizer/TfnBfLtNAN5XCDg6vs1pEf2LScU=/arc-anglerfish-arc2-prod-estadao/public/A6KXR725DZINTN64NIMPMF7IHI.jpg);
+}
